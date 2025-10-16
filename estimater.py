@@ -110,7 +110,7 @@ class Any6D:
         else:
             self.symmetry_tfs = torch.as_tensor(symmetry_tfs, device='cuda', dtype=torch.float)
 
-        # logging.info("reset done")
+        # logging.info("reset done")Any6D Pose Estimation (Core)      89005.12         0.00   89005.12/89005.12
 
     def get_tf_to_centered_mesh(self):
         tf_to_center = torch.eye(4, dtype=torch.float, device='cuda')
